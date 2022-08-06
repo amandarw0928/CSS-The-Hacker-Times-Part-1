@@ -29,8 +29,9 @@ h2, h4, h5 {
     font-family: Sans Pro;
 }
 h2 {
-    font-style: bold;
-    font-size: 2.2em;
+    font-weight: 900;
+    font-size: 1.8em;
+    line-height: 1em;
 }
 h4 {
     font-size: 1.5em;
@@ -38,6 +39,8 @@ h4 {
 h5 {
     font-size: 1.05em;
     color: red;
+    font-weight: 900;
+    line-height: 1em;
 }
 
 li {
@@ -54,6 +57,20 @@ li {
     display: inline-block;
 }
 
+#article-one {
+    display: inline-block;
+}
+#article-two {
+    display: inline-block;
+}
+
 p {
     font-family: Roboto Slab;
+    text-align: justify;
+    font-weight: 100;
+}
+
+#front-page-article {
+    width: 100%;
+    height: auto;
 }
