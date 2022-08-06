@@ -55,7 +55,7 @@ li {
     text-align: center;
     padding: .5em;
     line-height: 0.1em;
-    position: sticky;
+    position: fixed;
     top: 0px;
 }
 
